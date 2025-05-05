@@ -1,0 +1,21 @@
+{
+  "name": "it300-quote-server---rpl",
+  "version": "1.0.0",
+  "main": "quotes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raymond-lipin/IT300-Quote-Server---RPL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raymond-lipin/IT300-Quote-Server---RPL/issues"
+  },
+  "homepage": "https://github.com/Raymond-lipin/IT300-Quote-Server---RPL#readme",
+  "description": ""
+}
