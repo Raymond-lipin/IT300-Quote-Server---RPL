@@ -18,7 +18,7 @@ let server = http.createServer((req, res) => {
     let path = parsedUrl.pathname;
     let query = parsedUrl.query;
     
-    // Handle requests to the /quotes endpoint
+    // Handle requests to the /quotes endpoint(s)
     if (path === "/quotes") {
         // Get topic parameter, default to 'wisdom' if not provided
         let topic = query.topic;
