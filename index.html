@@ -68,7 +68,9 @@
             quotesContainer.innerHTML = "";
             
             // Fetch quotes from the server using deployment at render.com
-            fetch("https://nodequotes.onrender.com/quotes?topic=" + topic + "&count=" + count)
+            // fetch("https://nodequotes.onrender.com/quotes?topic=" + topic + "&count=" + count)
+           L
+            fetch("https:// IT300-Quote-Server---RP.onrender.com/quotes?topic=" + topic + "&count=" + count)
                 .then(function(response) {
                     return response.json();
                 })
